@@ -116,9 +116,10 @@ curl "localhost:9200/products/_search?q=jacket&pretty"
 
 ## 6. AI Usage Disclosure
 
-**Claude (claude.ai)** was used to:
-- Generate the initial `docker-compose.yml` structure and explain each field
-- Write and refine `fetch_data.py` and `sync_to_elastic.py`
-- Draft and structure this README
+I used **Claude (claude.ai)** as a support tool during this project.
 
-All generated content was reviewed, tested, and understood before submission. The demo was run locally and verified to work end-to-end.
+I independently researched Docker Compose, decided on the demo scenario (PostgreSQL + pgAdmin + Elasticsearch), and prepared the presentation narrative and slide content. I used Claude for assistance with:
+- Boilerplate code structure for `docker-compose.yml`, `fetch_data.py`, and `sync_to_elastic.py`
+- README formatting suggestions
+
+I reviewed, tested, and adjusted all AI-assisted output before submission. I ran the full demo end-to-end on my local machine and verified that everything works correctly.
